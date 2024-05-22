@@ -1,10 +1,8 @@
-﻿
-
-using static Mango.Web.Utillity.SD;
+﻿using static Mango.Web.Utillity.SD;
 
 namespace Mango.Web.Models;
 
-public class RequestDto
+public class ApiRequest
 {
     public ApiType ApiType { get; set; } = ApiType.GET;
     public string Url { get; set; }
